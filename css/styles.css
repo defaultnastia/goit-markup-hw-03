@@ -33,14 +33,16 @@ body {
 }
 
 .visually-hidden {
-  height: 1px;
-  overflow: hidden;
-  width: 1px;
   position: absolute;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
-  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
   white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 h1,
@@ -255,15 +257,13 @@ img {
   gap: 24px;
   justify-content: space-between;
 }
-
 .team-section .card-text-wrap {
-  border-radius: 0px 0px 4px 4px;
-  background-color: var(--white);
 }
-
 .team-list-item {
   overflow: hidden;
   width: calc((100% - 24px * 3) / 4);
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--white);
 }
 .team-list-image {
 }
@@ -298,6 +298,7 @@ img {
   border-left: 1px solid var(--cornflower);
   border-right: 1px solid var(--cornflower);
   padding-left: 16px;
+  padding-right: 16px;
 }
 .portfolio-section .list-item-header {
 }
@@ -310,9 +311,9 @@ img {
 .footer {
   background-color: var(--navy-blue);
   color: var(--cloud);
+  padding: 100px 0;
 }
 .footer .container {
-  padding: 100px 0;
 }
 .footer .logo {
   margin-bottom: 16px;
