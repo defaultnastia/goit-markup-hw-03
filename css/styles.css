@@ -1,0 +1,140 @@
+/* GLOBAL */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  letter-spacing: 4%;
+  color: inherit;
+}
+
+a:hover,
+a:active,
+a:focus,
+a:hover .logo-accent-header,
+a:active .logo-accent-header,
+a:hover .logo-accent-footer,
+a:active .logo-accent-footer {
+  color: #404bbf;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.section-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.list-item-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/* LOGO */
+
+.logo {
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  color: #4d5ae5;
+}
+
+.logo-accent-header {
+  color: #2e2f42;
+}
+
+.logo-accent-footer {
+  color: #f4f4fd;
+}
+
+/* HEADER */
+
+.header-nav-link {
+  color: #2e2f42;
+  font-weight: 500;
+}
+
+.header-contacts {
+  font-style: normal;
+}
+
+/* HERO */
+
+.hero-section {
+  background-color: #2e2f42;
+}
+
+.hero-section-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.hero-order-button {
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+
+.hero-order-button:hover,
+.hero-order-button:focus {
+  background-color: #404bbf;
+}
+
+/* FEATURES */
+
+/* TEAM */
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-section h3,
+.team-section p {
+  text-align: center;
+}
+
+.team-section li {
+  background-color: #ffffff;
+}
+
+/* PORTFOLIO */
+
+/* FOOTER */
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer {
+  color: #f4f4fd;
+}
+
+.footer-promo-text {
+  color: inherit;
+}
